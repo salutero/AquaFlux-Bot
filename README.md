@@ -14,7 +14,7 @@
 
 # Installation+Run🕸
 ```shell
-git clone https://github.com/ox1nec/AquaFlux-Bot
+git clone https://github.com/salutero/AquaFlux-Bot
 cd AquaFlux-Bot
 run.bat
 ```
@@ -22,7 +22,7 @@ run.bat
 **OR**
 
 ```shell
-git clone https://github.com/ox1nec/AquaFlux-Bot
+git clone https://github.com/salutero/AquaFlux-Bot
 cd AquaFlux-Bot
 pip install -r requirements.txt
 python bot.py
